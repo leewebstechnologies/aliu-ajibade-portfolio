@@ -83,7 +83,13 @@ const Banner = () => {
                     - Graphic designer and web developer.
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Let's connect <ArrowRightCircle size={25} />
+                    <a className="connect"
+                      href="https://wa.me/+2348084838268"
+                      target="_link"
+                      rel="no referrer"
+                    >
+                      Let's connect <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}

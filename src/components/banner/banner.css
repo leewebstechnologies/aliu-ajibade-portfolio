@@ -71,3 +71,8 @@
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
+
+  .connect {
+    color: #fff;
+    text-decoration: none;
+  }
