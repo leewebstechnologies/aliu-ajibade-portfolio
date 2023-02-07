@@ -14,7 +14,7 @@ import projImg9 from "../../assets/img/project-img9.png";
 import projImg10 from "../../assets/img/project-img10.jpg";
 import projImg11 from "../../assets/img/project-img11.png";
 import projImg12 from "../../assets/img/project-img12.png";
-// import projImg13 from "../../assets/img/project-img13.jpg";
+import projImg13 from "../../assets/img/project-img14.jpg";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 
@@ -88,6 +88,12 @@ const Projects = () => {
       description: "UI/UX Design",
       imgUrl: projImg12,
     },
+    {
+      title: "Leewebs",
+      description: "Graphic Design",
+      imgUrl: projImg13,
+    },
+    
   ];
 
   return (
