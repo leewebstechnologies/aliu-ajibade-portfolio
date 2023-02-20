@@ -20,13 +20,12 @@ import "animate.css";
 
 const Projects = () => {
   const projects = [
-   
     {
       title: "FoodMania",
       description: "UI/UX Design",
       imgUrl: projImg2,
     },
-   
+
     {
       title: "STK",
       description: "Graphic Design",
@@ -93,7 +92,6 @@ const Projects = () => {
       description: "Graphic Design",
       imgUrl: projImg13,
     },
-    
   ];
 
   return (
@@ -160,6 +158,15 @@ const Projects = () => {
                     <h4>
                       <a
                         className="web"
+                        href="https://tinder-clone-98351.web.app"
+                      >
+                        Tinder-clone
+                      </a>
+                      <a className="web" href="https://leewebs.netlify.app">
+                        Leewebs
+                      </a>
+                      <a
+                        className="web"
                         href="https://tesla-clone-leewebs.netlify.app"
                       >
                         Tesla UI
@@ -173,10 +180,7 @@ const Projects = () => {
                       >
                         FaceBook UI
                       </a>
-                      <a
-                        className="web"
-                        href="https://leewebs.netlify.app"
-                      >
+                      <a className="web" href="https://leewebs.netlify.app">
                         Leewebs
                       </a>
                     </h4>

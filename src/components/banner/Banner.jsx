@@ -81,13 +81,13 @@ const Banner = () => {
                     graphic designer intern in Techend Incubation Limited,
                     Oshodi, Lagos from 2018 to 2020. I now work as a freelancer
                     - Graphic designer and web developer. I am currently running
-                    a certication in professional front-end development course
+                    a certication in professional front-end developer course
                     from Meta.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     <a
                       className="connect"
-                      href="../../assets/img/AliuOlalekanAjibade.pdf"
+                      href="../assets/aliuOlalekanAjibade.pdf"
                       download
                     >
                       Download CV <ArrowRightCircle size={25} />
