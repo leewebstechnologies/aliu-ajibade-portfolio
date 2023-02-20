@@ -3,7 +3,7 @@ import "./navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import logo from "../../assets/img/leewebs.png";
+import logo from "../../assets/img/leewebs.png";
 import navIcon1 from "../../assets/img/nav-icon1.svg";
 import navIcon2 from "../../assets/img/nav-icon2.svg";
 import navIcon3 from "../../assets/img/github_white.png";
@@ -34,8 +34,8 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <h1 className="leewebs">Leewebs</h1>
-          {/* <img src={logo} alt="logo" /> */}
+          {/* <h1 className="leewebs">Leewebs</h1> */}
+          <img src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

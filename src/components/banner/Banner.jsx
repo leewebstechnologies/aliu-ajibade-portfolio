@@ -80,17 +80,27 @@ const Banner = () => {
                     from 2020 to 2022. I worked as a software developer and
                     graphic designer intern in Techend Incubation Limited,
                     Oshodi, Lagos from 2018 to 2020. I now work as a freelancer
-                    - Graphic designer and web developer.
+                    - Graphic designer and web developer. I am currently running
+                    a certication in professional front-end development course
+                    from Meta.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     <a
                       className="connect"
-                      href="https://wa.me/+2348084838268"
-                      target="_link"
-                      rel="no referrer"
+                      href="../../assets/img/AliuOlalekanAjibade.pdf"
+                      download
+                    >
+                      Download CV <ArrowRightCircle size={25} />
+                    </a>
+                    {/* <a
+                    className="connect"
+                    href="https://wa.me/+2348084838268"
+                    target="_link"
+                    rel="no referrer"
                     >
                       Let's connect <ArrowRightCircle size={25} />
-                    </a>
+                      <br /> <br />
+                    </a> */}
                   </button>
                 </div>
               )}

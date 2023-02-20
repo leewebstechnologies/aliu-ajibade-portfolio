@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../../assets/img/leewebs_logo_white.png";
+import logo from "../../assets/img/leewebs.png";
 import navIcon1 from "../../assets/img/nav-icon1.svg";
 import navIcon2 from "../../assets/img/nav-icon2.svg";
 import navIcon3 from "../../assets/img/github_white.png";
@@ -15,9 +15,10 @@ const Footer = () => {
           <Col size={12} sm={6}>
             <img className="logo" src={logo} alt="Logo" />
           </Col>
+         
           <Col size={12} sm={6} className="a">
             <div className="social-icon">
-            <a href="https://github.com/leewebstechnologies">
+              <a href="https://github.com/leewebstechnologies">
                 <img src={navIcon3} alt="github" />
               </a>
               <a
@@ -36,6 +37,7 @@ const Footer = () => {
             </div>
             <p>Copyright © 2023 - Leewebs</p>
           </Col>
+          
         </Row>
       </Container>
     </footer>
