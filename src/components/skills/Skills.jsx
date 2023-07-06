@@ -36,8 +36,8 @@ const Skills = () => {
               <h2>Skills</h2>
               <p>
                 We can help you build better websites using React Js and its
-                ecosystem.<br></br> We can also make fantastic graphic and UI/UX
-                designs using Adobe Photoshop and Figma.
+                ecosystem.<br></br> We can also make fantastic graphic designs
+                using Adobe Photoshop.
               </p>
               <Carousel
                 responsive={responsive}
@@ -46,11 +46,11 @@ const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Web Development" />
-                  <h5>Web Development</h5>
+                  <h5>Frontend Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Web Development" />
-                  <h5>UI/UX Design</h5>
+                  <h5>Backend Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Web Development" />

@@ -69,20 +69,14 @@ const Banner = () => {
                     <span className="wrap"> {text}</span>
                   </h1>
                   <p>
-                    I attended Zion African Church Primary school Alagbaa,
-                    Iyana-Ipaja, Agege from 1991 to 1996 and State high school
-                    Oyewole, Agege from 1996 to 2002 for my primary and
-                    secondary education respectively. I graduated in Accounting
-                    from the university of Lagos in 2014. I attend Annahdah
-                    institute of Arabic and Islamic studies from 2007 till date.
-                    I attended Zad Academy, Makkah, Kingdom of Saudi Arabia
-                    where I bagged a diploma in Islamic Law (with a distinction)
-                    from 2020 to 2022. I worked as a software developer and
-                    graphic designer intern in Techend Incubation Limited,
-                    Oshodi, Lagos from 2018 to 2020. I now work as a freelancer
-                    - Graphic designer and web developer. I am currently running
-                    a certication in professional front-end developer course
-                    from Meta.
+                    I am an experienced software developer who is very
+                    proficient at building scalable, fast performing
+                    applications and software using React Js and its ecosystem.
+                    I have thrived in the web development space for more than 3+
+                    years now and have amassed the prerequisite expertise needed
+                    to bring your Web Product to life. What gives me an edge is
+                    the fact that I also know how to make eye-catching graphic
+                    design.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     <a
