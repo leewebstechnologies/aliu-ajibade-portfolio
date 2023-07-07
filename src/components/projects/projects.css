@@ -123,14 +123,17 @@
   z-index: -4;
 }
 
-
-.web {
-  text-decoration: none;
-  margin-right: 10px;  
-  color: #fff;
+.proj {
+  display: flex;
 }
 
-.a {
+.proj > a {
   text-decoration: none;
+  color: #b8b8b8;
+}
 
+
+.web {
+  margin-right: 2rem;
+  row-gap: 3;
 }
