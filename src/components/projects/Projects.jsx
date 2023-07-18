@@ -3,11 +3,11 @@ import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "../projectcard/ProjectCard";
 import colorSharp2 from "../../assets/img/color-sharp.png";
 import projImg1 from "../../assets/img/project-img1.png";
-import projImg2 from "../../assets/img/lukend.jpg";
+import projImg2 from "../../assets/img/project-img2.jpg";
 import projImg3 from "../../assets/img/project-img3.jpg";
 import projImg4 from "../../assets/img/project-img4.jpg";
 import projImg5 from "../../assets/img/project-img5.jpg";
-import projImg6 from "../../assets/img/facebook.jpg";
+import projImg6 from "../../assets/img/project-img6.jpg";
 import projImg7 from "../../assets/img/project-img7.jpg";
 import projImg8 from "../../assets/img/project-img8.png";
 import projImg9 from "../../assets/img/project-img9.png";
@@ -38,23 +38,48 @@ const Projects = () => {
       description: "Graphic Design",
       imgUrl: projImg3,
     },
+    {
+      title: "FoodMania",
+      description: "UI/UX Design",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Kademofs Limited Banner",
+      description: "Graphic Design",
+      imgUrl: projImg5,
+    },
+    {
+      title: "STK POS Banner",
+      description: "Graphic Design",
+      imgUrl: projImg13,
+    },
   ];
 
   const projects_two = [
-    {
-      title: "SmartBuy Business Card",
-      description: "Graphic Design",
-      imgUrl: projImg15,
-    },
     {
       title: "Manbaul Ilm School Banner",
       description: "Graphic Design",
       imgUrl: projImg4,
     },
     {
+      title: "Leewebs Advert Banner",
+      description: "Graphic Design",
+      imgUrl: projImg7,
+    },
+    {
       title: "Kademofs Limited Banner",
       description: "Graphic Design",
       imgUrl: projImg5,
+    },
+    {
+      title: "Manbaul Ilm Job Advert Banner",
+      description: "Graphic Design",
+      imgUrl: projImg6,
+    },
+    {
+      title: "SmartBuy Business Card",
+      description: "Graphic Design",
+      imgUrl: projImg11,
     },
   ];
 
@@ -70,9 +95,19 @@ const Projects = () => {
       imgUrl: projImg8,
     },
     {
-      title: "SmartBuy LetterHead Paper",
+      title: "SmartBuy Letterhead Paper",
       description: "Graphic Design",
       imgUrl: projImg9,
+    },
+    {
+      title: "SmartBuy Business Card",
+      description: "Graphic Design",
+      imgUrl: projImg15,
+    },
+    {
+      title: "CubeVest App",
+      description: "UI/UX Design",
+      imgUrl: projImg12,
     },
   ];
 
@@ -90,9 +125,13 @@ const Projects = () => {
                 >
                   <h2>Software Development Projects</h2>
                   <p>
-                    Proven experience building successful products for clients across the globe.
+                    Proven experience building successful products for clients
+                    across the globe.
                   </p>
                   <div className="proj">
+                    <a href="https://maybee-stores.netlify.app">
+                      <h3 className="web">MayBee Stores</h3>
+                    </a>
                     <a href="https://tesla-clone-leewebs.netlify.app/">
                       <h3 className="web">Tesla Clone</h3>
                     </a>
