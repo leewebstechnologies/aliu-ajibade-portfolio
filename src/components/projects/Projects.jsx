@@ -129,12 +129,17 @@ const Projects = () => {
                     across the globe.
                   </p>
                   <div className="proj">
+                    <a href="https://aliajiabde.netlify.app/">
+                      <h3 className="web">Ali Ajibade Blog</h3>
+                    </a>
                     <a href="https://maybee-stores.netlify.app">
                       <h3 className="web">MayBee Stores</h3>
                     </a>
                     <a href="https://tesla-clone-leewebs.netlify.app/">
                       <h3 className="web">Tesla Clone</h3>
                     </a>
+                  </div>
+                  <div className="proj">
                     <a href="https://leewebs.netlify.app">
                       <h3 className="web">Leewebs</h3>
                     </a>
