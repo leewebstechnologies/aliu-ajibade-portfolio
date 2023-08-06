@@ -129,13 +129,16 @@ const Projects = () => {
                     across the globe.
                   </p>
                   <div className="proj">
-                    <a href="https://aliajiabde.netlify.app/">
+                    <a href="https://ajalatravels.netlify.app">
+                      <h3 className="web">Ali Ajibade Blog</h3>
+                    </a>
+                    <a href="https://aliajiabde.netlify.app">
                       <h3 className="web">Ali Ajibade Blog</h3>
                     </a>
                     <a href="https://maybee-stores.netlify.app">
                       <h3 className="web">MayBee Stores</h3>
                     </a>
-                    <a href="https://tesla-clone-leewebs.netlify.app/">
+                    <a href="https://tesla-clone-leewebs.netlify.app">
                       <h3 className="web">Tesla Clone</h3>
                     </a>
                   </div>
@@ -143,10 +146,10 @@ const Projects = () => {
                     <a href="https://leewebs.netlify.app">
                       <h3 className="web">Leewebs</h3>
                     </a>
-                    <a href="https://facebook-clone-ui.netlify.app/">
+                    <a href="https://facebook-clone-ui.netlify.app">
                       <h3 className="web">Facebook Clone</h3>
                     </a>
-                    <a href="https://lukend.netlify.app/">
+                    <a href="https://lukend.netlify.app">
                       <h3 className="web">Lukend</h3>
                     </a>
                   </div>
